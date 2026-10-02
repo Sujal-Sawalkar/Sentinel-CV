@@ -1,0 +1,40 @@
+{
+  "certificate_version": "1.0-SentinelCV",
+  "inference_id": "INF-2CB92A9C8E78",
+  "timestamp_utc": "2026-09-30T03:45:44.511312+00:00",
+  "input_metadata": {
+    "filename": "camera_01_baseline.png",
+    "byte_size": 1113
+  },
+  "model_metadata": {
+    "filename": "yolov8n_surveillance.onnx",
+    "byte_size": 8248
+  },
+  "input_sha256": "60859168464678bd4f3ade9de506863c2c4620b6f29b49c56f6cc714d0290a62",
+  "model_sha256": "604ef1559167e724a8612ff26d735c714795b98c9a950770b97742645b498d46",
+  "preprocessing_sha256": "99b71a7b3c9ba99db67b5ec8d31f42946ed973573905173dec56cd32495b41bf",
+  "output_sha256": "bc3b0d51d94dbaace0912396879cff9ea661514f741fbe3adbb0c9a5e613ba09",
+  "preprocessing": {
+    "resize": [
+      640,
+      640
+    ],
+    "normalization": "imagenet_standard"
+  },
+  "output": {
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.962,
+        "bbox": [
+          45,
+          60,
+          180,
+          210
+        ]
+      }
+    ]
+  },
+  "signature_ed25519_b64": "S0dUywQWGMwuMYIcwJAXMvsLUGZPZgEhVPi91cAY1XkB7EUVGeqwieGpHo3LL1KtkaB0WnT9AU/LEmuAxQN4Cg==",
+  "public_key_ed25519_b64": "ZCMA7MXV4N8U3/SJsS/r9NIylmPh+cdkabup9vwRGXY="
+}

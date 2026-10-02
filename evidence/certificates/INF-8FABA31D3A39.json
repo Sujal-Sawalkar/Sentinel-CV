@@ -1,0 +1,25 @@
+{
+  "certificate_version": "1.0-SentinelCV",
+  "inference_id": "INF-8FABA31D3A39",
+  "timestamp_utc": "2026-09-30T03:43:32.227268+00:00",
+  "input_metadata": {
+    "filename": "input.jpg",
+    "byte_size": 5
+  },
+  "model_metadata": {
+    "filename": "model.onnx",
+    "byte_size": 5
+  },
+  "input_sha256": "c96c6d5be8d08a12e7b5cdc1b207fa6b2430974c86803d8891675e76fd992c20",
+  "model_sha256": "9372c470eeadd5ecd9c3c74c2b3cb633f8e2f2fad799250a0f70d652b6b825e4",
+  "preprocessing_sha256": "7166e40cd7009a3092b1f4336bbc63b0557fa350d3f91029947e738403927580",
+  "output_sha256": "150fd43daee758e31428bc648e44b203616fd0bb8dedf91e13a55c7d34c88c8d",
+  "preprocessing": {
+    "norm": "std"
+  },
+  "output": {
+    "score": 0.9
+  },
+  "signature_ed25519_b64": "TFPkbiK9lBR1ZMQMrlbw9vf4DKP0AD6swlDs6JObbhbCBFzh5aNXeq8nuwkkZwhYhAI2jJ5DLf/BazOz8mxEBA==",
+  "public_key_ed25519_b64": "ZCMA7MXV4N8U3/SJsS/r9NIylmPh+cdkabup9vwRGXY="
+}

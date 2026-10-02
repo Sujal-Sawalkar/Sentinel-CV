@@ -1,0 +1,30 @@
+{
+  "certificate_version": "1.0-SentinelCV",
+  "inference_id": "INF-6BAAA5102A28",
+  "timestamp_utc": "2026-09-30T03:43:44.609287+00:00",
+  "input_metadata": {
+    "filename": "input.jpg",
+    "byte_size": 33
+  },
+  "model_metadata": {
+    "filename": "model.onnx",
+    "byte_size": 27
+  },
+  "input_sha256": "f76b7dd9497e3270f55107625ea2acc83e1ee51e3e0453d4213e6cba03b53a07",
+  "model_sha256": "3ded4f3187aa57ae466489321c709fab26f04a84104ce576fc99055b395608df",
+  "preprocessing_sha256": "ae00edfa44ff7fa3bc9df329e2e59a3ceadb4ac99b0af2bb9cdbb455994ffcfa",
+  "output_sha256": "d48f586133dfa36b38d10c3d3bb8ea0bfa498bcc77f0339668112903c5fb25bd",
+  "preprocessing": {
+    "resize": [
+      640,
+      640
+    ],
+    "norm": "standard"
+  },
+  "output": {
+    "class": "suspicious_intruder",
+    "confidence": 0.94
+  },
+  "signature_ed25519_b64": "g+PzI8oBUamL6X2feCPWmwmRZI94MUCI8zEk2XMHCbpALGLcwpQvUXiswYmkA5valED0tXjaU+KY0ATJCE6bDA==",
+  "public_key_ed25519_b64": "ZCMA7MXV4N8U3/SJsS/r9NIylmPh+cdkabup9vwRGXY="
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+trustcv.db
+evidence/*.json
+evidence/*.key
